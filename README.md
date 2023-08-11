@@ -15,7 +15,7 @@ Projeto desenvolvido pelos alunos Felipe e Pedro para resolver um problema apres
 - Nao esquecer de iniciar o servidor Tomcat antes de abrir o index no google.
 - Abrir no google usando localhost http://localhost:8080/ProjetoWeb/index.html
 
-- ## Stack utilizada
+## Stack utilizada
 
 - Servidor Tomcat
 - Servlet e JSP
