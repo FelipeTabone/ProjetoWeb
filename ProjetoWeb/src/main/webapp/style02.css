@@ -1,0 +1,161 @@
+body {
+	background-color: #f5f5f5;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	color: #333;
+	font-size: 32px;
+	animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.Caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.Caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+form {
+	animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+table {
+	animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+table th {
+	background-color: #0000FF;
+	color: #fff;
+	padding: 10px;
+}
+
+table td {
+	padding: 10px;
+}
+
+input[type="text"] {
+	animation: slideInLeft 1s ease-in-out;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+	outline: none;
+	border-color: #333;
+}
+
+input[type="button"] {
+	animation: scaleIn 1s ease-in-out;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+	background-color: #555;
+}
+
+/* Estilo do botão "Cadastrar" */
+.Botao1 {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+/* Estilo das células da tabela */
+table td {
+	border-bottom: 1px solid #ccc;
+}
+
+/* Estilo das células da última linha da tabela */
+table tr:last-child td {
+	border-bottom: none;
+}
+
+.container {
+	text-align: center;
+	text-align: -webkit-center;
+}
+
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+.Botao3 {
+	text-decoration: none;
+	background-color: rgb(0, 255, 0);
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+.Botao2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+}
